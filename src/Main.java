@@ -14,5 +14,3 @@ public class Main {
         System.out.println(MervansAccount.customerName);
     }
 }
-
-

@@ -24,6 +24,17 @@ public class bankAccount {
         System.out.println("Account constructor with parameters called.");
     }
 
+    public bankAccount(String customerName, String eMail, String phoneNumber) {
+        //*To prevent this, we can put "this" keyword
+
+
+        //It's only updating the below three fields.
+        //*The disadvantage is that our accountNumber and balance haven't been updated.
+        this.customerName = customerName;
+        this.eMail = eMail;
+        this.phoneNumber = phoneNumber;
+    }
+
     public void setAccountNumber(String accountNumber) {
         this.accountNumber = accountNumber;
     }

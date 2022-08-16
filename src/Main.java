@@ -6,6 +6,12 @@ public class Main {
         System.out.println(MervansAccount.balance);
         System.out.println(MervansAccount.customerName);
         System.out.println(MervansAccount.eMail);
+
+
+        MervansAccount.depositFunds(3233);
+        MervansAccount.withdrawFunds(343);
+        System.out.println(MervansAccount.accountNumber);
+        System.out.println(MervansAccount.customerName);
     }
 }
 
